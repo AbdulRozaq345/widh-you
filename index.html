@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Corazón es Tuyo</title>
+    <link rel="icon" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Boton Modo Oscuro -->
+        <button id="toggleDarkMode" class="floating-button">
+            <i class="ri-sun-line"></i>
+        </button>
+
+        <!-- Sección Inicial -->
+        <section class="section active" id="inicio">
+            <h1>Haloo Adekk Manisss ❤️</h1>
+            <p>Hai Adek Manisss, sejak kamu hadir dalam hidupkuu,, hidupku jadi lebih berwarna tauu,, kamu ituu sangatttt spesiall dalam hidupku. 
+                bolee ndaa Mamasmu yang nyebelin ini ngasih hal kecil.? Maaff jika cuma ini yang mass berikan</p>
+            <button class="btn" onclick="showSection('declaracion')">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg> click cinii</button>
+        </section>
+
+        <!-- Sección de Declaración -->
+        <section class="section" id="declaracion">
+            <h1>¿Maukah kamu mau menjadi Valentineku?</h1>
+            <p>Aku ingin berbagi denganmu setiap tawa, setiap momen, dan setiap detak jantungku.
+                Apakah kamu mau bersamaku, dan menjadi saksi dari setiap momen yang indah ini?</p>
+            <div class="button-container">
+                <button class="btn" onclick="showSection('aceptacion')">¡Mauuu! 💖</button>
+                <button class="btn" id="btnNo">ndaak! 😢</button>
+            </div>
+        </section>
+
+        <!-- Sección de Aceptación -->
+        <section class="section" id="aceptacion">
+            <h1>¡Untuk muu manisss!</h1>
+            <div class="carta">
+                <h1>Surat dari Mamasmu yang nyebelin</h1>
+                <p>sayangku cintaku,
+
+                    Sejak kita bertemu, banyak yang berubah dari hidupku,, setiap hari bisa memandang wajah cantikmu
+                    adalah sebuah anugerah terindah dalam hidupku, Adek tau ndaa,, setiap harinya Mamasmu ini selalu mikirin Adekk lhooo!
+                    Adekk itu cantik, gemesinn, tidak ada orang lain yang bisa jadi seperti Adekk, Mas sangatt bersyukur punya
+                    adekk manisss. <br>
+
+                    Sayanggg,, maaff jika hari" mass selalu menyakiti pean,, mass sayangg bangett sama adekk,, maafin Mass yang selalu jahat sama adekk,
+                    selalu bikin adek sedii,, Mass ndak bermaksud nyakitin adek, maafin Mass yhaa Adek maniss. <br>
+
+                    Sayangg bersama-sama kita akan membangun masa depan yang utuh. melewati senang, susah, dan momen" menyenangkan bersama,
+                    Adek adalah orang yang dengannya Mass ingin berbagi setiap detak jantung ini. Terimakasin telah menerima Mass untuk menjadi
+                    bagian dari hidup nya Mass dan mengizinkan Mass menjadi bagian dari hidup nya adekk. Mass mencintai Adekk lebih dari apa yang 
+                    bisa diungkapkan lewat kata-kata, dan hari ini, esok, dan selamanya. 
+                    Mass akan selalu mencintai Adekk <br>
+
+                    Dengan seluruh cintanya Mass untuk Adekk Maniss,<br>
+                    - </p>  
+            </div>
+            <button class="btn" onclick="showSection('albums')">¡Coba liatt! 💖</button>
+        </section>
+
+        <section class="section" id="albums">
+            <div class="box">
+                <span style="--i:1"><img src="foto/f1.jpeg"></span>
+                <span style="--i:2"><img src="foto/f2.jpeg"></span>
+                <span style="--i:3"><img src="foto/f3.jpeg"></span>
+                <span style="--i:4"><img src="foto/f4.jpeg"></span>
+                <span style="--i:5"><img src="foto/f5.jpeg"></span>
+                <span style="--i:6"><img src="foto/f6.jpeg"></span>
+                <span style="--i:7"><img src="foto/f7.jpeg"></span>
+                <span style="--i:8"><img src="foto/f8.jpeg"></span>
+            </div>
+            <div class="btns">
+                <div class="btn prev"></div>
+                <div class="btn next"></div>
+                
+            </div>
+
+
+        </section>
+
+
+    </div>
+    <script>
+
+    </script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
